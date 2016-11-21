@@ -38,7 +38,7 @@ Import ng-mobx and include the module:
 ```
 import 'ng-mobx';
 
-angular.module('app'. [
+angular.module('app', [
   ...
   'ng-mobx',
   ...
