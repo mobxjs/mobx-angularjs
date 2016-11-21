@@ -49,8 +49,7 @@ Then use `mobx-autorun`:
 ```
 import {store} from './store/counter';
 
-export {
-  selector: 'myComponent',
+angular.component('myComponent', {
   controller: () => this.store = store,
   controllerAs: '$ctrl',
   template: `
@@ -59,7 +58,7 @@ export {
       <button ng-click="$ctrl.store.action()">Action</button>
     </div>
   `
-};
+});
 ```
 
 ## Example
