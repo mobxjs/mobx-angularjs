@@ -2,10 +2,11 @@
 # ng-mobx
 
 ## MobX connector for Angular 1
-If you're looking for the Angular 2 version version, it's [here](https://github.com/500tech/ng2-mobx)
+If you're looking for the Angular 2 version version, it's [here](https://github.com/500tech/ng2-mobx)  
+
 MobX is a modern reactive state management library.
 
-This simple library connects MobX to Angular 2 components.
+This simple library connects MobX to Angular.
 
 ## Why use MobX
 The advantages of MobX are:
