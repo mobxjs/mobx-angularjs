@@ -1,0 +1,40 @@
+{
+  "name": "ng-mobx",
+  "version": "1.0.0",
+  "description": "Angular 1 connector for MobX",
+  "main": "dist/ng-mobx.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "karma start",
+    "build": "webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/500tech/ng-mobx.git"
+  },
+  "keywords": [
+    "mobx",
+    "angular",
+    "angularjs"
+  ],
+  "author": "Adam Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/500tech/ng-mobx/issues"
+  },
+  "homepage": "https://github.com/500tech/ng-mobx#readme",
+  "devDependencies": {
+    "angular": "^1.4",
+    "babel": "6.5.2",
+    "babel-cli": "6.18.0",
+    "babel-loader": "6.2.8",
+    "mobx": "^2.6",
+    "webpack": "1.13.3"
+  },
+  "peerDependencies": {
+    "angular": "^1.4",
+    "mobx": "^2.6"
+  }
+}
