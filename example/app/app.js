@@ -12,7 +12,9 @@ import Filters    from 'filters/filters';
 import Config     from 'config/config';
 import Routes     from 'config/routes/routes';
 import States     from 'states/states';
-import 'ng-mobx';
+import { when, autorun, autorunAsync, reaction } from 'ng-mobx';
+
+console.log({ when, autorun, autorunAsync, reaction });
 
 import  "angular-material";
 // Import all html files to put them in $templateCache
