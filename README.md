@@ -36,11 +36,11 @@ $ npm install --save ng-mobx
 
 Import ng-mobx and include the module:
 ```
-import 'ng-mobx';
+import ngMobx from 'ng-mobx';
 
 angular.module('app', [
   ...
-  'ng-mobx',
+  ngMobx,
   ...
 ]);
 ```
