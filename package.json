@@ -28,8 +28,8 @@
     "prebuild": "rimraf dist/*",
     "build": "webpack --env.type=umd && webpack -p --env.type=umd.min",
     "example": "parcel example/index.html -o --no-cache --no-hmr -d node_modules/.example",
-    "pub": "npm test && npm run build && cp {README.md,package.json} dist && npm publish dist",
-    "test": "jest"
+    "pub": "jest && npm run build && cp {README.md,package.json} dist && npm publish dist",
+    "test": "jest && codecov"
   },
   "peerDependencies": {
     "angular": ">=1.4.0",
@@ -45,6 +45,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-env": "^1.6.1",
+    "codecov": "^3.0.0",
     "jest": "^22.1.2",
     "mobx": "^3.4.1",
     "number-to-words": "^1.2.3",
@@ -63,6 +64,11 @@
     "moduleFileExtensions": [
       "js",
       "ts"
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage/",
+    "collectCoverageFrom": [
+      "src/**/*.ts"
     ]
   }
 }

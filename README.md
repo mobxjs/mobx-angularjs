@@ -1,7 +1,9 @@
 # mobx-angularjs
 
 [![npm version](https://img.shields.io/npm/v/mobx-angularjs.svg?style=flat-square)](https://www.npmjs.com/package/mobx-angularjs)
-[![npm version](https://img.shields.io/npm/dw/mobx-angularjs.svg?style=flat-square)](https://www.npmjs.com/package/mobx-angularjs)
+[![coverage](https://img.shields.io/codecov/c/github/mobxjs/mobx-angularjs.svg?style=flat-square)](https://codecov.io/gh/mobxjs/mobx-angularjs)
+[![npm downloads](https://img.shields.io/npm/dw/mobx-angularjs.svg?style=flat-square)](https://www.npmjs.com/package/mobx-angularjs)
+[![Build Status](https://img.shields.io/travis/mobxjs/mobx-angularjs.svg?style=flat-square)](https://travis-ci.org/mobxjs/mobx-angularjs)
 
 ## AngularJS connector to MobX
 This package is for Angular 1.x, if you're looking for the Angular 2+ version, it's [here](https://github.com/mobxjs/mobx-angular).
