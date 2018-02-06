@@ -83,6 +83,8 @@ angular.component('myComponent', {
 })
 ```
 
+**Important note:** Make sure you always mark your isolated scope block (such as `ng-if`) with the `mobx-autorun` directive so that MobX can react to it.
+
 ## Example
 
 Clone this repository:
