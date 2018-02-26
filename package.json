@@ -1,6 +1,6 @@
 {
   "name": "mobx-angularjs",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "AngularJS connector to MobX",
   "main": "mobx-angularjs.js",
   "typings": "index.d.ts",
