@@ -5,7 +5,7 @@
 [![npm downloads](https://img.shields.io/npm/dw/mobx-angularjs.svg?style=flat-square)](https://www.npmjs.com/package/mobx-angularjs)
 [![Build Status](https://img.shields.io/travis/mobxjs/mobx-angularjs.svg?style=flat-square)](https://travis-ci.org/mobxjs/mobx-angularjs)
 
-## AngularJS connector to MobX
+## MobX connector to AngularJS
 This package is for Angular 1.x, if you're looking for the Angular 2+ version, it's [here](https://github.com/mobxjs/mobx-angular).
 
 MobX is a modern reactive state management library.
