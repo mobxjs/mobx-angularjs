@@ -13,7 +13,7 @@ const debounce = (fn, ms = 0) => {
 
 const link: angular.IDirectiveLinkFn = ($scope) => {
 
-  const { $$watchers = [] } = $scope as any
+  const $$watchers = ($scope as any).$$watchers || [];
   const debouncedDigest = debounce($scope.$digest.bind($scope), 0);
 
   const dispose = reaction(
